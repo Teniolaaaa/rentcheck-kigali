@@ -717,4 +717,5 @@ Q4 2025: 🌍 Expand to All Rwanda
 
 ---
 
-*Made with ❤️ by a student, for students.*
+*Made with ❤️ by a student, for students.*#   r e n t c h e c k - k i g a l i  
+ 

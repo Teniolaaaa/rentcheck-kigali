@@ -1,19 +1,9 @@
 🏠 RentCheck Kigali – Your Safety Net for Renting in Kigali
+Developed by: Teniola Adam Olaleye  [ALU; SOFTWARE ENGINEERING STUDENT ]
 
-Helping Students Avoid Rental Scams in Kigali, Rwanda
+📹 Watch Demo Video: https://www.loom.com/share/ea16548f5b6c43c49b5cd94eca1f19af
 
-RentCheck Kigali is a platform that helps students and tenants verify landlords and properties before signing a lease. Say goodbye to deposit scams and rental nightmares.
-
-
-
-
-
-
-
-
-📹 Watch Demo Video   
-
-https://www.loom.com/share/ea16548f5b6c43c49b5cd94eca1f19af
+Helping students and tenants avoid rental scams in Kigali, Rwanda. RentCheck Kigali allows users to verify landlords and properties before signing a lease, protecting deposits and preventing rental nightmares.
 
 📖 Table of Contents
 
@@ -31,8 +21,6 @@ Installation & Setup
 
 API Overview
 
-Project Structure
-
 Usage Examples
 
 What's Next
@@ -45,54 +33,52 @@ License & Acknowledgments
 
 🚨 Why RentCheck Exists
 
-As a student in Kigali, I learned the hard way that renting can be risky. A landlord once took 360,000 RWF from me and vanished. Unfortunately, I later found out three other students had fallen for the same scam.
-
-Some facts about renting in Kigali:
+Renting in Kigali can be risky. As a student, I personally lost 360,000 RWF to a landlord who vanished. Many others have fallen victim to similar scams.
 
 1 in 4 students report negative rental experiences
 
 Typical deposit losses: 300,000–500,000 RWF
 
-University students and young professionals are the main targets
+Students and young professionals are frequent targets
 
-There’s no centralized way to check if a landlord is trustworthy
+No centralized way exists to verify landlords
 
-The question was clear: How can students avoid this before it happens?
+The question: How can students avoid this before it happens?
 
 💡 Our Solution
 
-RentCheck Kigali gives tenants the tools to check landlords and properties before paying a deposit. It’s a simple, fast way to make renting safer.
+RentCheck Kigali gives tenants tools to check landlords and properties before paying a deposit — simple, fast, and safe.
 
-What Makes Us Different
+Key differentiators:
+✅ Safety Scores: 0–100 risk score based on disputes, scam reports, and reviews
+✅ Real Tenant Reviews: Only verified tenants can leave feedback
+✅ Scam Alerts: Landlords with multiple complaints are flagged
+✅ District-Based Search: Gasabo, Kicukiro, Nyarugenge
+✅ Mobile-Friendly Design
 
-✅ Safety Scores – See a 0-100 risk score based on disputes, scam reports, tenant reviews, and property maintenance.
-✅ Real Tenant Reviews – Only verified tenants can leave feedback. No fake ratings.
-✅ Scam Alerts – Landlords with multiple complaints get flagged instantly.
-✅ District-Based Search – Find safe properties in Gasabo, Kicukiro, or Nyarugenge.
-✅ Mobile-Friendly Design – Works beautifully on phones, tablets, or desktops.
+✨ Features
 
-✨ Key Features
 For Tenants:
 
-🔍 Quick Landlord Search – Search by name or property address and see results instantly.
+🔍 Quick Landlord Search – By name or property address
 
 📊 Safety Scores
 
-75-100 (Green): Safe to rent
+75–100 (Green): Safe
 
-50-74 (Yellow): Caution advised
+50–74 (Yellow): Caution
 
-0-49 (Red): High risk
+0–49 (Red): High risk
 
-⚠️ Scam Alerts – Real-time warnings with details of fraud incidents.
+⚠️ Scam Alerts – Real-time warnings
 
-⭐ Verified Tenant Reviews – Only past tenants who can be verified leave ratings.
+⭐ Verified Tenant Reviews – Past tenants only
 
-⚖️ Legal Dispute Tracking – Shows court cases, status, and history of disputes.
+⚖️ Legal Dispute Tracking – Court cases, status, and history
 
-🗺️ Smart Filters – Search by district, minimum safety score, or verified landlords.
+🗺️ Smart Filters – By district, safety score, verified landlords
 
-Platform Stats Dashboard
+Platform Stats Dashboard:
 
 Total properties indexed
 
@@ -103,27 +89,29 @@ Safe properties
 Scams prevented
 
 🛠️ Technology Stack
-Backend
+
+Backend:
+
 Tech	Purpose
-Python 3.11	Main programming language
-FastAPI	High-performance API framework
-Uvicorn	ASGI server for speed
-JSON	Lightweight data storage
-Pydantic	Data validation & safety
-Frontend
+Python 3.11	Main language
+FastAPI	High-performance API
+Uvicorn	ASGI server
+JSON	Lightweight storage
+Pydantic	Data validation
+
+Frontend:
+
 Tech	Purpose
 React 18	Component-based UI
-JavaScript (ES6+)	Interactivity & logic
-Vite	Fast build and hot reload
-CSS3	Styling & responsive design
-Tools
+JavaScript (ES6+)	Interactivity
+Vite	Fast build & hot reload
+CSS3	Styling & responsiveness
 
-Git, VS Code, PowerShell, Node.js
+Tools: Git, VS Code, PowerShell, Node.js
 
 🔧 How It Works
-Safety Score Algorithm
 
-Every landlord gets a 0-100 score. Points are added or deducted based on:
+Safety Score Algorithm (0–100 points):
 
 Scam reports: -30 each
 
@@ -154,7 +142,7 @@ Node.js 18+
 
 Git
 
-VS Code (or preferred editor)
+VS Code or preferred editor
 
 Steps
 # Clone the repo
@@ -183,7 +171,7 @@ Base URL: http://localhost:8000/api/v1
 
 GET /properties/search – Search landlords and properties
 
-GET /properties/{property_id} – Details for a specific property
+GET /properties/{property_id} – Details for a property
 
 GET /stats – Platform statistics
 
@@ -199,19 +187,17 @@ Set minimum score: 75+
 
 Review results → click on a property
 
-Read verified reviews and make an informed decision
+Read verified reviews → make informed decision
 
 Avoiding a Scammer:
 
 Search for "Emmanuel Nkusi"
 
-See red warning, scam reports, and pending disputes
+See red warning, scam reports, and disputes
 
-Decision: Do not rent → saved your deposit!
+Decision: Do not rent → deposit saved
 
 🎯 What’s Next
-
-Next 3–12 months:
 
 User accounts, reviews, scam reporting
 
@@ -225,11 +211,15 @@ Expansion to other Rwandan cities
 
 🤝 Contributing
 
-We welcome developers, designers, and students passionate about safe renting!
+We welcome developers, designers, and students!
 
-Steps to contribute:
+Fork the repo
 
-Fork → create a feature branch → code → commit → push → open a PR
+Create a feature branch
+
+Code → commit → push
+
+Open a PR
 
 📊 Impact
 
@@ -249,11 +239,10 @@ Scams prevented: 500+
 
 Money saved: 150,000,000 RWF
 
-📄 License
-
+📄 License & Acknowledgments
 
 FastAPI & React teams
 
-Beta testers and students who shared their stories
+Beta testers and students who shared stories
 
-💡 Stay safe. Check before you rent. RentCheck Kigali.
+💡 Stay safe. Check before you rent. RentCheck Kiga

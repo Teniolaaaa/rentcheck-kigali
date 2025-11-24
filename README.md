@@ -1,4 +1,7 @@
 🏠 RentCheck Kigali – Your Safety Net for Renting in Kigali
+
+
+
 Developed by: Teniola Adam Olaleye  [ALU; SOFTWARE ENGINEERING STUDENT ]
 
 📹 Watch Demo Video: https://www.loom.com/share/ea16548f5b6c43c49b5cd94eca1f19af

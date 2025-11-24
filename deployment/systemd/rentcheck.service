@@ -1,0 +1,14 @@
+[Unit]
+Description=RentCheck Kigali Backend Service
+After=network.target
+
+[Service]
+User=your_username
+Group=www-data
+WorkingDirectory=/path/to/rentcheck-kigali/backend/src
+ExecStart=/path/to/your/python /path/to/rentcheck-kigali/backend/src/main.py
+Restart=always
+Environment=ENVIRONMENT_VARIABLES_HERE
+
+[Install]
+WantedBy=multi-user.target

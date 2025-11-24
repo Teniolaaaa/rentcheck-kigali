@@ -1,0 +1,138 @@
+[
+  {
+    "property_id": "KGL-001",
+    "landlord_name": "Jean Mugabo",
+    "property_address": "KG 15 Ave, Kimironko, Gasabo",
+    "district": "Gasabo",
+    "rent_check_score": 82,
+    "verified_landlord": true,
+    "legal_disputes": [],
+    "scam_reports": [],
+    "tenant_reviews": [
+      {
+        "review_id": "REV-001",
+        "rating": 4,
+        "comment": "Good landlord, responsive to maintenance requests",
+        "date": "2024-10-15",
+        "verified": true
+      }
+    ],
+    "property_photos": ["photo1.jpg"],
+    "rent_amount": 250000,
+    "deposit_required": 500000
+  },
+  {
+    "property_id": "KGL-002",
+    "landlord_name": "Marie Uwase",
+    "property_address": "KK 20 St, Remera, Gasabo",
+    "district": "Gasabo",
+    "rent_check_score": 91,
+    "verified_landlord": true,
+    "legal_disputes": [],
+    "scam_reports": [],
+    "tenant_reviews": [
+      {
+        "review_id": "REV-002",
+        "rating": 5,
+        "comment": "Excellent property management, highly recommended!",
+        "date": "2024-11-01",
+        "verified": true
+      }
+    ],
+    "property_photos": ["photo2.jpg"],
+    "rent_amount": 350000,
+    "deposit_required": 700000
+  },
+  {
+    "property_id": "KGL-003",
+    "landlord_name": "Emmanuel Nkusi",
+    "property_address": "KN 5 Ave, Nyamirambo, Nyarugenge",
+    "district": "Nyarugenge",
+    "rent_check_score": 23,
+    "verified_landlord": false,
+    "legal_disputes": [
+      {
+        "case_id": "DISP-001",
+        "description": "Refused to return deposit",
+        "status": "pending",
+        "date": "2024-09-20"
+      }
+    ],
+    "scam_reports": [
+      {
+        "report_id": "SCAM-001",
+        "description": "Collected deposit for non-existent property",
+        "date": "2024-10-05",
+        "verified": true
+      },
+      {
+        "report_id": "SCAM-002",
+        "description": "Property shown in photos does not match reality",
+        "date": "2024-10-12",
+        "verified": true
+      }
+    ],
+    "tenant_reviews": [],
+    "property_photos": [],
+    "rent_amount": 180000,
+    "deposit_required": 360000
+  },
+  {
+    "property_id": "KGL-004",
+    "landlord_name": "Pierre Habimana",
+    "property_address": "KK 7 Ave, Kicukiro Centre, Kicukiro",
+    "district": "Kicukiro",
+    "rent_check_score": 67,
+    "verified_landlord": true,
+    "legal_disputes": [
+      {
+        "case_id": "DISP-002",
+        "description": "Delayed maintenance repairs",
+        "status": "resolved",
+        "date": "2024-08-10"
+      }
+    ],
+    "scam_reports": [],
+    "tenant_reviews": [
+      {
+        "review_id": "REV-003",
+        "rating": 3,
+        "comment": "Property is okay, but maintenance is slow",
+        "date": "2024-09-15",
+        "verified": true
+      }
+    ],
+    "property_photos": ["photo3.jpg"],
+    "rent_amount": 200000,
+    "deposit_required": 400000
+  },
+  {
+    "property_id": "KGL-005",
+    "landlord_name": "Grace Mukamana",
+    "property_address": "KG 10 St, Kacyiru, Gasabo",
+    "district": "Gasabo",
+    "rent_check_score": 88,
+    "verified_landlord": true,
+    "legal_disputes": [],
+    "scam_reports": [],
+    "tenant_reviews": [
+      {
+        "review_id": "REV-004",
+        "rating": 5,
+        "comment": "Best landlord in Kigali! Very professional",
+        "date": "2024-10-20",
+        "verified": true
+      },
+      {
+        "review_id": "REV-005",
+        "rating": 4,
+        "comment": "Great location, fair rent, good service",
+        "date": "2024-11-05",
+        "verified": true
+      }
+    ],
+    "property_photos": ["photo4.jpg", "photo5.jpg"],
+    "rent_amount": 400000,
+    "deposit_required": 800000
+  }
+]

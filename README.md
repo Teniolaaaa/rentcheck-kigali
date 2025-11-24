@@ -251,11 +251,6 @@ Money saved: 150,000,000 RWF
 
 📄 License
 
-MIT License – free to use, modify, and share. Include original copyright notice.
-
-🙏 Thanks
-
-ALU Coding Challenge
 
 FastAPI & React teams
 
